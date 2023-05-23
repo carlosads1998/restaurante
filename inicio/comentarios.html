@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/comentario.css" rel="Stylesheet">
+    <title>Comentarios</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/DANKE-yellow.png" alt="Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h1>Avalia Restaurante</h1>
+
+    <form>
+        <div class="form-group">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+      
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+      
+          <div class="form-group">
+            <label for="rating">Classificação:</label>
+            <select id="rating" name="rating" required>
+              <option value="">Selecione...</option>
+              <option value="excelente">Excelente</option>
+              <option value="bom">Bom</option>
+              <option value="regular">Regular</option>
+              <option value="ruim">Ruim</option>
+            </select>
+          </div>
+      
+          <div class="form-group">
+            <label for="comment">Comentário:</label>
+            <textarea id="comment" name="comment" rows="5" required></textarea>
+          </div>
+      
+          <button type="submit">Enviar Avaliação</button>
+      
+    </form>
+
+</body>
+</html>

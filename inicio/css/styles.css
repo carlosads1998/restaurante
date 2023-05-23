@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('https://www.granmarquise.com.br/wp-content/uploads/2018/08/lobby.jpg');
+}
+
+header {
+    background: linear-gradient(to right, #000000, #00000094);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+}
+
+.logo {
+    margin-right: auto;
+    margin-left: 20px;
+}
+
+.logo img {
+    height: 60px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    display: block;
+    color: yellow;
+    text-decoration: none;
+    padding: 15px 20px;
+}
+
+nav ul li a:hover {
+    background-color: rgba(0, 0, 0, 0.123);
+}

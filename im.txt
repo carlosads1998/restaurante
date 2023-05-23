@@ -1,0 +1,37 @@
+<div class="'slideshow-container">
+            <div class="slide">
+                <img src="assets/img/pexels-shamia-casiano-2015097.jpg" alt="slide 1">
+            </div>
+            <div class="slide">
+                <img src="assets/img/pexels-valeria-boltneva-1251198.jpg" alt="slide 2">
+            </div>
+            <div class="slide">
+                <img src="assets/img/montagem_top10_5_hamburguer.webp" alt="'slide 3">
+            </div>
+        </div>
+            <div class="item">
+                <h1>Cardapio</h1>
+
+                <h2>Fast Food</h2>
+                <img src="assets/img/smes-removebg-preview.png">
+                <p class="Preço"> R$35,90</p>
+                <p class="Descrição">Hamburguer pesadão de verdade, come e passa 24horas sem comer nada.</p>
+
+                <img src="assets/img/smes-removebg-preview.png">
+                <p class="Preço"> R$30,90</p>
+                <p class="Descrição">Hamburguer pesadão de verdade, come e passa 24horas sem comer nada.</p>
+
+                <img src="assets/img/smes-removebg-preview.png">
+                <p class="Preço"> R$25,90</p>
+                <p class="Descrição">Hamburguer pesadão de verdade, come e passa 24horas sem comer nada.</p>
+
+                <img src="assets/img/smes-removebg-preview.png">
+                <p class="Preço"> R$39,90</p>
+                <p class="Descrição">Hamburguer pesadão de verdade, come e passa 24horas sem comer nada.</p>
+
+                <img src="assets/img/smes-removebg-preview.png">
+                <p class="Preço"> R$50,90</p>
+                <p class="Descrição">Hamburguer pesadão de verdade, come e passa 24horas sem comer nada.</p>
+            </div>
+        <script src="scripts.js"></script>
+    </div>
